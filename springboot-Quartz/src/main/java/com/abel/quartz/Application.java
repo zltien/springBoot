@@ -11,7 +11,7 @@ import org.springframework.context.annotation.ImportResource;
 @ImportResource("classpath*:META-INF/spring/*.xml")
 public class Application {
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(Application.class, args); 
     }
 
 
